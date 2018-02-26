@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Testng learnning">
+  <test name="class level access">
+  
+  
+  <packages>
+  
+  <package name="testngExecutionOrderSet1"></package>
+  
+ <!--   <package name="testngExecutionOrderSet2"></package>-->
+  
+  </packages>
+  
+ 
+    
+    
+    
+</test> <!-- Test -->
+</suite> <!-- Suite -->

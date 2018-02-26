@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ListnersConcept]">
+  <listeners>
+    <listener class-name="Testng_concept.IExecutionListener"/>
+  </listeners>
+  <test name="MurariTestCase(failed)">
+    <classes>
+      <class name="Testng_concept.basic_testng">
+        <methods>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Testng_concept.basic_testng -->
+    </classes>
+  </test> <!-- MurariTestCase(failed) -->
+</suite> <!-- Failed suite [ListnersConcept] -->

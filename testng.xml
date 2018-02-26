@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+  
+
+   <suite name="ListnersConcept">
+
+   <listeners>
+<!--   <listener class-name= "Testng_concept.ITestListners"/>--> 
+    <listener class-name= "Testng_concept.IExecutionListener"/>
+   </listeners>
+ 
+  <test thread-count="5" name="MurariTestCase">
+ 
+    <classes>
+      <class name="Testng_concept.basic_testng"/>
+    </classes>
+  </test> <!-- MurariTestCase -->
+</suite> <!-- ListnersConcept -->
